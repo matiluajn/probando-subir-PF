@@ -1,0 +1,36 @@
+@media (min-width: 768px) {
+    main {
+        .col-lg-4:hover {
+            transform: scale(1.2);
+            border: outset 1px rgb(248, 233, 24);
+            background: rgb(173, 173, 167);
+        }
+        div {
+            #imgCol:hover {
+                transform: scale(1.2);
+                border: outset 1px rgb(0, 0, 0);
+                background: rgb(173, 173, 167);
+                opacity: 70%;
+            }
+        }
+    }
+}
+
+#imgCol {
+    width: 500px;
+    height: 500px;
+}
+
+// main de contacto
+@media (min-width: 768px) {
+    .col-sm-4 {
+        iframe {
+            width: 540px !important;
+            height: 400px !important;
+        }
+    }
+}
+
+#h1Entrenamiento {
+    text-align: center;
+}
