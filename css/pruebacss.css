@@ -19,13 +19,13 @@
     transform: scale(1.2);
     border: outset 1px #f8e918;
     background: #adada7; }
-  main div #imgCol:hover {
+  main div .imgCol:hover {
     transform: scale(1.2);
     border: outset 1px black;
     background: #adada7;
     opacity: 70%; } }
 
-#imgCol {
+.imgCol {
   width: 350px;
   height: 400px; }
 
@@ -38,7 +38,7 @@
   text-align: center; }
 
 @media (min-width: 768px) {
-  .carousel-inner #imgCarru {
+  .carousel-inner .imgCarru {
     max-height: 300px;
     margin-top: 15px !important;
     padding-top: 25px !important;

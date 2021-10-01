@@ -6,7 +6,7 @@
             background: rgb(173, 173, 167);
         }
         div {
-            #imgCol:hover {
+            .imgCol:hover {
                 transform: scale(1.2);
                 border: outset 1px rgb(0, 0, 0);
                 background: rgb(173, 173, 167);
@@ -16,7 +16,7 @@
     }
 }
 
-#imgCol {
+.imgCol {
     width: 350px;
     height: 400px;
 }
